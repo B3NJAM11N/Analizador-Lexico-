@@ -1,0 +1,59 @@
+package AnlT4;
+import java.util.Scanner;
+public class AnlT4 {
+
+    public static void main(String[] args) {
+        Scanner x= new Scanner (System.in);
+        System.out.println("menu de opciones ");
+        System.out.println("suma=1, resta=2, residuo=3, division=4, numero mayor=5, opcion incorrecta=6");
+
+            System.out.println("Escoge una de las siguientes opciones");
+        int op=x.nextInt();
+         switch(op){
+             case 1:
+                 System.out.println("suma");
+                     int a=15;
+                     int b=63;
+                     int suma= a+b;
+                     System.out.println("total= "+suma);
+                           break;
+
+             case 2:
+                 System.out.println("resta");
+                 double n1= 12.5;
+                 double n2= 10.4;
+                 double res= n1-n2;
+                 System.out.println("el resultado es:  "+res);
+                 break;
+
+             case 3:
+                 System.out.println("residuo y par");
+                 double numero= 24;
+                 double residuo= numero%2;
+                 System.out.println("el total es: "+residuo);
+                    break;
+
+             case 4:
+                 System.out.println("division");
+                 int r=35;
+                 int s=7;
+             double t=r/s;
+                 System.out.println("el total es: "+t);
+                     break;
+
+             case 5:
+                 System.out.println("numero mayor");
+               int c= 10;
+               int g= 3;
+               if(c>g){
+                   System.out.println(c+" ->es el numero mayor");
+               }
+               else{
+                   System.out.println(g+" -> es el mayor");
+               }
+               break;
+               default:
+                   System.out.println("opcion invalida");
+           }
+        }
+    }
