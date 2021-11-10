@@ -1,8 +1,8 @@
 # Analizador-Lexico-
-Aqui esta almacenado el programa del trabajo integrador correspondiente al tema 4
+## Aqui esta almacenado el programa de ejercicios individuales
 
-Integrantes: 
-Weyler Jesus Jimenez Ucan
-Zeus Abadallan Heliodoro Uc
-Limber Adiel Koyoc Tuz
-Miguel Benjamin Perez Suasnavar
+## Alumno: Miguel Benjamin Perez Suasnavar
+## Lenguaje del analizador: Python
+## Lenguaje a analizar: JAVA
+
+
